@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start-dev": "hz serve --dev"
+    "b": "webpack",
+    "sd": "hz serve --start-rethinkdb --secure yes --auto-create-collection --auto-create-index --serve-static ./dist"
   },
   "author": "Aristides Staffieri",
   "license": "ISC",
   "dependencies": {
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
     "webpack": "^1.13.1"
   },
   "devDependencies": {

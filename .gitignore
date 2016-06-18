@@ -1,0 +1,6 @@
+node_modules
+dist
+rethinkdb_data
+.hz
+server-crt.pem
+server-key.pem
